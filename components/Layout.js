@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 const Layout = ({ children }) => {
   return (
     <Provider>
-      <div className="bg-neutral-50 dark:bg-neutral-800 transition-all transform duration-300 ease-in-out antialiased">
+      <div className="bg-neutral-50 dark:bg-neutral-900 transition-all transform duration-300 ease-in-out antialiased font-inter selection:bg-pink-500 selection:text-neutral-50 dark:selection:text-neutral-800">
         <Navbar />
         <main>{children}</main>
         <Footer />

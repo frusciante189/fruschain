@@ -11,7 +11,7 @@ import useWindowSize from "../hooks/useWindowSize";
 const Context = createContext();
 
 const Provider = ({ children }) => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const [isOpen, setIsOpen] = useState(false);
   const ref = useRef(null);
   const size = useWindowSize();
