@@ -1,8 +1,8 @@
 import React from "react";
-import GradientCard from "../components/UI/GradientCard";
 import Link from "next/link";
 import data from "../components/data";
 import { ArrowCircleRightIcon } from "@heroicons/react/outline";
+import VideoCard from "../components/UI/VideoCard";
 
 const Egitimler = () => {
   return (
@@ -22,9 +22,8 @@ const Egitimler = () => {
               Kanal istatistikleri
             </h2>
             <div className="grid sm:grid-cols-3 grid-cols-1 mt-5 gap-6">
-              <GradientCard />
-              <GradientCard />
-              <GradientCard />
+              <VideoCard />
+              <VideoCard />
             </div>
             <div className="mt-12 space-y-8">
               {data.map((i, index) => {
