@@ -1,11 +1,11 @@
 const data = [
   {
-    title: "Eğitimler",
-    slug: "egitimler",
-  },
-  {
     title: "Blog",
     slug: "blog",
+  },
+  {
+    title: "Eğitimler",
+    slug: "egitimler",
   },
   {
     title: "Yol Haritası",

@@ -4,6 +4,7 @@ import DarkMode from "./UI/DarkMode";
 import { HomeIcon } from "@heroicons/react/outline";
 import { useRouter } from "next/dist/client/router";
 import NavData from "./NavbarData";
+import { FaDiscord } from "react-icons/fa";
 
 const Navbar = () => {
   const router = useRouter();
@@ -38,7 +39,12 @@ const Navbar = () => {
               })}
             </div>
           </nav>
-          <div>
+          <div className="flex space-x-4 items-center">
+            <Link href="/">
+              <a className="text-[#7289da]">
+                <FaDiscord size={22} />
+              </a>
+            </Link>
             <DarkMode />
           </div>
         </div>

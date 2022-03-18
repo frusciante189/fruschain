@@ -49,6 +49,9 @@ const Footer = () => {
               <a className={`text-neutral-500 font-medium`}>Youtube</a>
             </Link>
             <Link href="/">
+              <a className={`text-neutral-500 font-medium`}>Discord</a>
+            </Link>
+            <Link href="/">
               <a className={`text-neutral-500 font-medium`}>Twitter</a>
             </Link>
             <Link href="/">

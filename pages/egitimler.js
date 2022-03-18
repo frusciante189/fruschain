@@ -40,7 +40,7 @@ const Egitimler = () => {
                               <p className="dark:text-neutral-50 text-neutral-800 group-hover:text-pink-500 transition-all transform duration-300">
                                 {lesson.item}
                               </p>
-                              <ArrowCircleRightIcon className="w-6 h-6 dark:text-neutral-50 text-neutral-800 group-hover:text-pink-500 transition-all transform duration-300" />
+                              <ArrowCircleRightIcon className="w-6 h-6 dark:text-neutral-50 text-neutral-800 group-hover:text-pink-500 transition-all transform duration-300 group-hover:animate-pulse" />
                             </div>
                           </Link>
                         );

@@ -4,7 +4,7 @@ const Post = () => {
   return (
     <div className="relative group cursor-pointer">
       <div
-        className="bg-gradient-to-tl to-pink-500 from-purple-500 rounded-2xl absolute w-full h-full opacity-0 group-hover:opacity-30 z-[-1] transition-all duration-500
+        className="bg-gradient-to-tr from-sky-400 via-fuchsia-400 to-orange-400 rounded-2xl absolute w-full h-full opacity-0 group-hover:opacity-30 z-[-1] transition-all duration-500
        ease-in-out transform"
       ></div>
       <div className="p-4">
