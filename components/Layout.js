@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
         <filter id="noise">
           <feTurbulence
             type="fractalNoise"
-            baseFrequency=".85"
+            baseFrequency=".90"
             numOctaves="4"
             stitchTiles="stitch"
           ></feTurbulence>

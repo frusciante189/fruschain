@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="lg:py-16 sm:py-12 py-10 h-screen">
+    <section className="lg:py-16 sm:py-12 py-10 relative">
       <div className="max-w-3xl mx-auto lg:px-8 sm:px-6 px-4">
         <div>
-          <div>
-            <p className="text-5xl text-center leading-snug text-neutral-800 dark:text-neutral-50 font-bold">
+          <div className="relative z-20">
+            <p className="md:text-6xl text-5xl text-center leading-snug text-neutral-800 dark:text-neutral-50 font-bold">
               <span className="text-transparent bg-clip-text bg-gradient-to-tl to-pink-500 from-purple-500">
                 Fruschain
               </span>{" "}
@@ -15,8 +15,8 @@ const Hero = () => {
             </p>
             <div className="mt-10">
               <Link href="/">
-                <div className="relative w-1/3 mx-auto cursor-pointer group">
-                  <div className="absolute -inset-3 z-20">
+                <div className="relative md:w-1/3 w-2/3 mx-auto cursor-pointer group">
+                  <div className="absolute -inset-2 z-20">
                     <div className="filter blur-lg dark:opacity-30 opacity-60 bg-gradient-to-r from-sky-400 via-fuchsia-400 to-orange-400 w-full h-full"></div>
                   </div>
                   <a
