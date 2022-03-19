@@ -9,7 +9,7 @@ const Post = () => {
       ></div>
       <div className="p-4">
         <h2 className="sm:text-xl text-lg font-medium text-neutral-800 dark:text-neutral-50 ">
-          Tailwind CSS'e giriş
+          Tailwind CSSe giriş
         </h2>
         <p className="text-neutral-800 dark:text-neutral-400 mt-2.5">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quasi
